@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiClasses.Home"
+             Title="Home">
+    <VerticalStackLayout>
+        <Label 
+            Text="CLASSES E OBJETOS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="txtNomeAnimal"
+               Placeholder="Nome do Animal"
+               />
+        <Entry x:Name="txtRaca" />
+        <Entry x:Name="txtCor" />
+        <Entry x:Name="txtPeso" />
+        <Entry x:Name="txtPedigree" />
+        <Entry x:Name="txtValor" />
+
+        <Button x:Name="btnCadastrar"
+                Clicked="btnCadastrar_Clicked"
+                Text="Cadastrar"
+                />
+
+        <Button x:Name="Latir"
+                Clicked="btnLatir_Clicked" />
+        
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
